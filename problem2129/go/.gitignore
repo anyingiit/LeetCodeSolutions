@@ -1,0 +1,59 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Test binary, built with `go test -c`
+# Output of the go coverage tool, specifically when used with LiteIDE
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+
+# Go build cache
+*.a
+!lib.go
+!lib/*.go
+
+# Node.js dependencies
+node_modules/
+
+# Visual Studio Code settings
+.vscode/
+# GoLand settings
+.idea/
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.slo
+*.lo
+*.la
+*.al
+
+# Folders
+bin/
+obj/
+testbin/
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# LeetCode specific ignores
+*.leetcode
+leetcode/
